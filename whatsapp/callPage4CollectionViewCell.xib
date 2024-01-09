@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="callPage4CollectionViewCell" customModule="whatsapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="151" height="171"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="151" height="171"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BF0-xO-ARt">
+                        <rect key="frame" x="37" y="8" width="79" height="76"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="76" id="cAn-XM-LBi"/>
+                            <constraint firstAttribute="width" constant="79" id="hV1-Ia-Cal"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aH1-57-PWX">
+                        <rect key="frame" x="26" y="92" width="100" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="7HE-SO-phI"/>
+                            <constraint firstAttribute="width" constant="100" id="MyT-oB-6GN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQg-hB-2Wb">
+                        <rect key="frame" x="22" y="125" width="106" height="35"/>
+                        <color key="backgroundColor" red="0.070588235289999995" green="0.54901960780000003" blue="0.4941176471" alpha="0.54554399762834827" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="106" id="OQN-pJ-ZAE"/>
+                            <constraint firstAttribute="height" constant="35" id="YZP-du-1Bk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="Follow">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="followBtn:" destination="gTV-IL-0wX" eventType="touchUpInside" id="hAP-Ll-5wE"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="aH1-57-PWX" firstAttribute="top" secondItem="BF0-xO-ARt" secondAttribute="bottom" constant="8" id="0dy-jW-ZXu"/>
+                <constraint firstItem="BF0-xO-ARt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="37" id="54O-2D-Y19"/>
+                <constraint firstItem="aH1-57-PWX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="26" id="I0l-rI-IYM"/>
+                <constraint firstAttribute="trailing" secondItem="BF0-xO-ARt" secondAttribute="trailing" constant="35" id="R1x-ta-eoW"/>
+                <constraint firstAttribute="bottom" secondItem="WQg-hB-2Wb" secondAttribute="bottom" constant="11" id="VSK-7J-hOv"/>
+                <constraint firstAttribute="trailing" secondItem="aH1-57-PWX" secondAttribute="trailing" constant="25" id="Whl-s5-Y5L"/>
+                <constraint firstItem="WQg-hB-2Wb" firstAttribute="top" secondItem="aH1-57-PWX" secondAttribute="bottom" constant="12" id="XlV-vg-6iW"/>
+                <constraint firstItem="BF0-xO-ARt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="bu5-fx-R5D"/>
+                <constraint firstItem="WQg-hB-2Wb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="22" id="cMj-M9-aCw"/>
+                <constraint firstAttribute="trailing" secondItem="WQg-hB-2Wb" secondAttribute="trailing" constant="23" id="vD7-TN-P7e"/>
+            </constraints>
+            <size key="customSize" width="151" height="171"/>
+            <connections>
+                <outlet property="channelBtnFollow" destination="WQg-hB-2Wb" id="atF-qa-EPT"/>
+                <outlet property="channelImage" destination="BF0-xO-ARt" id="jes-nh-1OV"/>
+                <outlet property="channelName" destination="aH1-57-PWX" id="60O-fz-HMX"/>
+            </connections>
+            <point key="canvasLocation" x="206.87022900763358" y="29.929577464788736"/>
+        </collectionViewCell>
+    </objects>
+</document>

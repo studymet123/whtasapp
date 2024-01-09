@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1877B20D2B306D5900233D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877B20C2B306D5900233D4C /* AppDelegate.swift */; };
+		1877B20F2B306D5900233D4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877B20E2B306D5900233D4C /* SceneDelegate.swift */; };
+		1877B2112B306D5900233D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877B2102B306D5900233D4C /* ViewController.swift */; };
+		1877B2142B306D5900233D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1877B2122B306D5900233D4C /* Main.storyboard */; };
+		1877B2162B306D5B00233D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1877B2152B306D5B00233D4C /* Assets.xcassets */; };
+		1877B2192B306D5B00233D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1877B2172B306D5B00233D4C /* LaunchScreen.storyboard */; };
+		1877B2222B30705400233D4C /* pagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877B2202B30705400233D4C /* pagesCollectionViewCell.swift */; };
+		188BA57F2B3D5D6900C9FD79 /* profilePicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BA57D2B3D5D6900C9FD79 /* profilePicViewController.swift */; };
+		188BA5802B3D5D6900C9FD79 /* profilePicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188BA57E2B3D5D6900C9FD79 /* profilePicViewController.xib */; };
+		18B47D0F2B355E200064DE1F /* PersonChatMsgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B47D0E2B355E200064DE1F /* PersonChatMsgTableViewCell.swift */; };
+		18B47D112B356C3A0064DE1F /* callingInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B47D102B356C3A0064DE1F /* callingInterfaceViewController.swift */; };
+		18B94B852B318CA9006AFAE3 /* chatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B94B832B318CA9006AFAE3 /* chatPage.swift */; };
+		18B94B862B318CA9006AFAE3 /* chatPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B94B842B318CA9006AFAE3 /* chatPage.xib */; };
+		18B94B892B319292006AFAE3 /* statusPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B94B872B319292006AFAE3 /* statusPage.swift */; };
+		18B94B8A2B319292006AFAE3 /* statusPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B94B882B319292006AFAE3 /* statusPage.xib */; };
+		18C90BBE2B3D3E3D00C889D5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C90BBC2B3D3E3D00C889D5 /* SettingsViewController.swift */; };
+		18C90BBF2B3D3E3D00C889D5 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C90BBD2B3D3E3D00C889D5 /* SettingsViewController.xib */; };
+		18D0FD352B31A4C90031BDC2 /* callPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0FD332B31A4C90031BDC2 /* callPage.swift */; };
+		18D0FD362B31A4C90031BDC2 /* callPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D0FD342B31A4C90031BDC2 /* callPage.xib */; };
+		18D0FD392B31A5F40031BDC2 /* CollectionViewCellStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0FD372B31A5F40031BDC2 /* CollectionViewCellStatus.swift */; };
+		18D0FD3A2B31A5F40031BDC2 /* CollectionViewCellStatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D0FD382B31A5F40031BDC2 /* CollectionViewCellStatus.xib */; };
+		18D66CED2B34319700DD84AF /* callPageTableViewCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D66CEB2B34319700DD84AF /* callPageTableViewCellTwo.swift */; };
+		18D66CEE2B34319700DD84AF /* callPageTableViewCellTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D66CEC2B34319700DD84AF /* callPageTableViewCellTwo.xib */; };
+		18D66CF12B3437FD00DD84AF /* callPageTableViewCellThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D66CEF2B3437FD00DD84AF /* callPageTableViewCellThree.swift */; };
+		18D66CF22B3437FD00DD84AF /* callPageTableViewCellThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D66CF02B3437FD00DD84AF /* callPageTableViewCellThree.xib */; };
+		18D66CF52B34445C00DD84AF /* callPageTableViewCellFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D66CF32B34445C00DD84AF /* callPageTableViewCellFour.swift */; };
+		18D66CF62B34445C00DD84AF /* callPageTableViewCellFour.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D66CF42B34445C00DD84AF /* callPageTableViewCellFour.xib */; };
+		18D66CF92B34469700DD84AF /* callPage4CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D66CF72B34469700DD84AF /* callPage4CollectionViewCell.swift */; };
+		18D66CFA2B34469700DD84AF /* callPage4CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D66CF82B34469700DD84AF /* callPage4CollectionViewCell.xib */; };
+		18D66CFC2B34552F00DD84AF /* PersonChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D66CFB2B34552F00DD84AF /* PersonChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1877B2092B306D5900233D4C /* whatsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1877B20C2B306D5900233D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1877B20E2B306D5900233D4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1877B2102B306D5900233D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1877B2132B306D5900233D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1877B2152B306D5B00233D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1877B2182B306D5B00233D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1877B21A2B306D5B00233D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1877B2202B30705400233D4C /* pagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		188BA57D2B3D5D6900C9FD79 /* profilePicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilePicViewController.swift; sourceTree = "<group>"; };
+		188BA57E2B3D5D6900C9FD79 /* profilePicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = profilePicViewController.xib; sourceTree = "<group>"; };
+		18B47D0E2B355E200064DE1F /* PersonChatMsgTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonChatMsgTableViewCell.swift; sourceTree = "<group>"; };
+		18B47D102B356C3A0064DE1F /* callingInterfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callingInterfaceViewController.swift; sourceTree = "<group>"; };
+		18B94B832B318CA9006AFAE3 /* chatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatPage.swift; sourceTree = "<group>"; };
+		18B94B842B318CA9006AFAE3 /* chatPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = chatPage.xib; sourceTree = "<group>"; };
+		18B94B872B319292006AFAE3 /* statusPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statusPage.swift; sourceTree = "<group>"; };
+		18B94B882B319292006AFAE3 /* statusPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = statusPage.xib; sourceTree = "<group>"; };
+		18C90BBC2B3D3E3D00C889D5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		18C90BBD2B3D3E3D00C889D5 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		18D0FD332B31A4C90031BDC2 /* callPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callPage.swift; sourceTree = "<group>"; };
+		18D0FD342B31A4C90031BDC2 /* callPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = callPage.xib; sourceTree = "<group>"; };
+		18D0FD372B31A5F40031BDC2 /* CollectionViewCellStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellStatus.swift; sourceTree = "<group>"; };
+		18D0FD382B31A5F40031BDC2 /* CollectionViewCellStatus.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCellStatus.xib; sourceTree = "<group>"; };
+		18D66CEB2B34319700DD84AF /* callPageTableViewCellTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callPageTableViewCellTwo.swift; sourceTree = "<group>"; };
+		18D66CEC2B34319700DD84AF /* callPageTableViewCellTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = callPageTableViewCellTwo.xib; sourceTree = "<group>"; };
+		18D66CEF2B3437FD00DD84AF /* callPageTableViewCellThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callPageTableViewCellThree.swift; sourceTree = "<group>"; };
+		18D66CF02B3437FD00DD84AF /* callPageTableViewCellThree.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = callPageTableViewCellThree.xib; sourceTree = "<group>"; };
+		18D66CF32B34445C00DD84AF /* callPageTableViewCellFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callPageTableViewCellFour.swift; sourceTree = "<group>"; };
+		18D66CF42B34445C00DD84AF /* callPageTableViewCellFour.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = callPageTableViewCellFour.xib; sourceTree = "<group>"; };
+		18D66CF72B34469700DD84AF /* callPage4CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callPage4CollectionViewCell.swift; sourceTree = "<group>"; };
+		18D66CF82B34469700DD84AF /* callPage4CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = callPage4CollectionViewCell.xib; sourceTree = "<group>"; };
+		18D66CFB2B34552F00DD84AF /* PersonChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonChatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1877B2062B306D5900233D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1877B2002B306D5900233D4C = {
+			isa = PBXGroup;
+			children = (
+				1877B20B2B306D5900233D4C /* whatsapp */,
+				1877B20A2B306D5900233D4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1877B20A2B306D5900233D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1877B2092B306D5900233D4C /* whatsapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1877B20B2B306D5900233D4C /* whatsapp */ = {
+			isa = PBXGroup;
+			children = (
+				1877B20C2B306D5900233D4C /* AppDelegate.swift */,
+				1877B20E2B306D5900233D4C /* SceneDelegate.swift */,
+				1877B2102B306D5900233D4C /* ViewController.swift */,
+				1877B2122B306D5900233D4C /* Main.storyboard */,
+				1877B2152B306D5B00233D4C /* Assets.xcassets */,
+				1877B2172B306D5B00233D4C /* LaunchScreen.storyboard */,
+				1877B21A2B306D5B00233D4C /* Info.plist */,
+				1877B2202B30705400233D4C /* pagesCollectionViewCell.swift */,
+				18B94B832B318CA9006AFAE3 /* chatPage.swift */,
+				18B94B842B318CA9006AFAE3 /* chatPage.xib */,
+				18B94B872B319292006AFAE3 /* statusPage.swift */,
+				18B94B882B319292006AFAE3 /* statusPage.xib */,
+				18D0FD332B31A4C90031BDC2 /* callPage.swift */,
+				18D0FD342B31A4C90031BDC2 /* callPage.xib */,
+				18D0FD372B31A5F40031BDC2 /* CollectionViewCellStatus.swift */,
+				18D0FD382B31A5F40031BDC2 /* CollectionViewCellStatus.xib */,
+				18D66CEB2B34319700DD84AF /* callPageTableViewCellTwo.swift */,
+				18D66CEC2B34319700DD84AF /* callPageTableViewCellTwo.xib */,
+				18D66CEF2B3437FD00DD84AF /* callPageTableViewCellThree.swift */,
+				18D66CF02B3437FD00DD84AF /* callPageTableViewCellThree.xib */,
+				18D66CF32B34445C00DD84AF /* callPageTableViewCellFour.swift */,
+				18D66CF42B34445C00DD84AF /* callPageTableViewCellFour.xib */,
+				18D66CF72B34469700DD84AF /* callPage4CollectionViewCell.swift */,
+				18D66CF82B34469700DD84AF /* callPage4CollectionViewCell.xib */,
+				18D66CFB2B34552F00DD84AF /* PersonChatViewController.swift */,
+				18B47D0E2B355E200064DE1F /* PersonChatMsgTableViewCell.swift */,
+				18B47D102B356C3A0064DE1F /* callingInterfaceViewController.swift */,
+				18C90BBC2B3D3E3D00C889D5 /* SettingsViewController.swift */,
+				18C90BBD2B3D3E3D00C889D5 /* SettingsViewController.xib */,
+				188BA57D2B3D5D6900C9FD79 /* profilePicViewController.swift */,
+				188BA57E2B3D5D6900C9FD79 /* profilePicViewController.xib */,
+			);
+			path = whatsapp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1877B2082B306D5900233D4C /* whatsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1877B21D2B306D5B00233D4C /* Build configuration list for PBXNativeTarget "whatsapp" */;
+			buildPhases = (
+				1877B2052B306D5900233D4C /* Sources */,
+				1877B2062B306D5900233D4C /* Frameworks */,
+				1877B2072B306D5900233D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = whatsapp;
+			productName = whatsapp;
+			productReference = 1877B2092B306D5900233D4C /* whatsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1877B2012B306D5900233D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1877B2082B306D5900233D4C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1877B2042B306D5900233D4C /* Build configuration list for PBXProject "whatsapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1877B2002B306D5900233D4C;
+			productRefGroup = 1877B20A2B306D5900233D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1877B2082B306D5900233D4C /* whatsapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1877B2072B306D5900233D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D0FD362B31A4C90031BDC2 /* callPage.xib in Resources */,
+				18D66CFA2B34469700DD84AF /* callPage4CollectionViewCell.xib in Resources */,
+				1877B2192B306D5B00233D4C /* LaunchScreen.storyboard in Resources */,
+				1877B2162B306D5B00233D4C /* Assets.xcassets in Resources */,
+				188BA5802B3D5D6900C9FD79 /* profilePicViewController.xib in Resources */,
+				18D66CF22B3437FD00DD84AF /* callPageTableViewCellThree.xib in Resources */,
+				18D66CF62B34445C00DD84AF /* callPageTableViewCellFour.xib in Resources */,
+				18D66CEE2B34319700DD84AF /* callPageTableViewCellTwo.xib in Resources */,
+				18C90BBF2B3D3E3D00C889D5 /* SettingsViewController.xib in Resources */,
+				18D0FD3A2B31A5F40031BDC2 /* CollectionViewCellStatus.xib in Resources */,
+				18B94B862B318CA9006AFAE3 /* chatPage.xib in Resources */,
+				18B94B8A2B319292006AFAE3 /* statusPage.xib in Resources */,
+				1877B2142B306D5900233D4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1877B2052B306D5900233D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D0FD352B31A4C90031BDC2 /* callPage.swift in Sources */,
+				18D66CF52B34445C00DD84AF /* callPageTableViewCellFour.swift in Sources */,
+				18B47D112B356C3A0064DE1F /* callingInterfaceViewController.swift in Sources */,
+				1877B2112B306D5900233D4C /* ViewController.swift in Sources */,
+				1877B20D2B306D5900233D4C /* AppDelegate.swift in Sources */,
+				188BA57F2B3D5D6900C9FD79 /* profilePicViewController.swift in Sources */,
+				18D66CF92B34469700DD84AF /* callPage4CollectionViewCell.swift in Sources */,
+				18B94B892B319292006AFAE3 /* statusPage.swift in Sources */,
+				18C90BBE2B3D3E3D00C889D5 /* SettingsViewController.swift in Sources */,
+				18D66CED2B34319700DD84AF /* callPageTableViewCellTwo.swift in Sources */,
+				18D0FD392B31A5F40031BDC2 /* CollectionViewCellStatus.swift in Sources */,
+				18D66CF12B3437FD00DD84AF /* callPageTableViewCellThree.swift in Sources */,
+				18D66CFC2B34552F00DD84AF /* PersonChatViewController.swift in Sources */,
+				18B47D0F2B355E200064DE1F /* PersonChatMsgTableViewCell.swift in Sources */,
+				1877B20F2B306D5900233D4C /* SceneDelegate.swift in Sources */,
+				1877B2222B30705400233D4C /* pagesCollectionViewCell.swift in Sources */,
+				18B94B852B318CA9006AFAE3 /* chatPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1877B2122B306D5900233D4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1877B2132B306D5900233D4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1877B2172B306D5B00233D4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1877B2182B306D5B00233D4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1877B21B2B306D5B00233D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1877B21C2B306D5B00233D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1877B21E2B306D5B00233D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = whatsapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sideMenu.whatsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1877B21F2B306D5B00233D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = whatsapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sideMenu.whatsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1877B2042B306D5900233D4C /* Build configuration list for PBXProject "whatsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1877B21B2B306D5B00233D4C /* Debug */,
+				1877B21C2B306D5B00233D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1877B21D2B306D5B00233D4C /* Build configuration list for PBXNativeTarget "whatsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1877B21E2B306D5B00233D4C /* Debug */,
+				1877B21F2B306D5B00233D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1877B2012B306D5900233D4C /* Project object */;
+}
